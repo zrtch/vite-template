@@ -36,7 +36,7 @@ v2 版本就转为与 Vue 无关
 
 - Snopack：和 Vite 在生产构建时有点区别，Vite 的生产构建是直接用 Rollup 直接打包，而 Snopack 的打包输出跟开发时事一样的，这会导致浏览器的兼容性有一点问题。
 - WMR：基本是以 Preact 作为集成的，对第三方框架就没那么友好
-- @web/dev-server ：它没有提供官方的框架集成，所以要通过第三方插件来手动的去做，并且使用率不高，所以它的插件集成也没有那么丰富，导致并不好用。
+- @web/dev-server ：它没有提供官方的框架集成，所以要通过第三方插件来手动的去做，并且使用率不高；所以它的插件集成也没有那么丰富，导致并不好用。
 
 详情可以看官网比较：[https://cn.vitejs.dev/guide/comparisons.html](https://cn.vitejs.dev/guide/comparisons.html)
 
