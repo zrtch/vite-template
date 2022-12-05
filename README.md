@@ -20,7 +20,7 @@
 - 学习构建就是提升自己重要的过程
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/1261852/1669970276973-67a2cbab-2437-498e-8a7e-21ebce890226.png#averageHue=%23fefefe&clientId=udc545b5f-d76d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=316&id=uca14dc01&margin=%5Bobject%20Object%5D&name=image.png&originHeight=316&originWidth=670&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29950&status=done&style=none&taskId=uae80c804-179a-4a38-9215-7942d0f208b&title=&width=670)
-在 Vite 当中，我们的请求发发布到 Vite 的 Server 之后，我们会经过 Server App 然后会经过它一大段的 ModuleGraph 的模块管理，然后会注入各种插件的功能，最后通过 Esbuild 保存到它的一个缓存当中，返回给我们的用户 。
+在 Vite 当中，我们的请求发发布到 Vite 的 Server 之后，我们会经过 Server App 然后会经过它一大段的 ModuleGraph 的模块管理，然后会注入各种插件的功能；最后通过 Esbuild 保存到它的一个缓存当中，返回给我们的用户 。
 
 #### 1-2 什么是 Vite
 
@@ -36,7 +36,7 @@ v2 版本就转为与 Vue 无关
 
 - Snopack：和 Vite 在生产构建时有点区别，Vite 的生产构建是直接用 Rollup 直接打包，而 Snopack 的打包输出跟开发时事一样的，这会导致浏览器的兼容性有一点问题。
 - WMR：基本是以 Preact 作为集成的，对第三方框架就没那么友好
-- @web/dev-server ：它没有提供官方的框架集成，所以要通过第三方插件来手动的去做，并且使用率不高，所以它的插件集成也没有那么丰富，导致并不好用。
+- @web/dev-server ：它没有提供官方的框架集成，所以要通过第三方插件来手动的去做，并且使用率不高；所以它的插件集成也没有那么丰富，导致并不好用。
 
 详情可以看官网比较：[https://cn.vitejs.dev/guide/comparisons.html](https://cn.vitejs.dev/guide/comparisons.html)
 
