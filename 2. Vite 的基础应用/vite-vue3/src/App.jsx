@@ -4,15 +4,18 @@ import '@styles/test.less'
 import classes from '@styles/test.module.css'
 import logo from './assets/vue.svg'
 
-import test from './main?raw'
-console.log(test) // /src/main.js
+import main from './main?raw'
+console.log(main) // /src/main.js
+
+import { a } from './test'
+console.log('🤩  a', a)
 
 export default defineComponent({
   setup() {
     return () => {
       return (
         <>
-          <div class={`root ${classes.moduleClass}`}>hello vue jsx</div>
+          <div class={`root ${classes.moduleClass}`}>hello {a.name}</div>
           <img src={logo} alt="" />
         </>
       )
