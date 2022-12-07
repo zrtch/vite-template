@@ -4,6 +4,7 @@ import { setupCounter } from './counter'
 
 console.log(import.meta.env);
 const x = import.meta.env.VITE_TITLE // 通过vit-env.d.ts文件是可以拿到类型
+console.log('🤩  x', x);
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
