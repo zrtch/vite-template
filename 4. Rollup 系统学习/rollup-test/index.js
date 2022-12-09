@@ -1,5 +1,5 @@
 import React from 'react';
-import { funA } from './a'
+import { funA } from 'a'
 
 funA()
 
