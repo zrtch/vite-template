@@ -2,4 +2,6 @@ import { funA } from './a'
 
 funA()
 
-console.log('hello rollup');
+import pkg from './package.json'
+
+console.log('hello rollup', pkg);
