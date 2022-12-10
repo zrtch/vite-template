@@ -72,4 +72,4 @@ v2 版本就转为与 Vue 无关
 
 2-8 Vite 集成 eslint 和 prettier
 
-#### 2-9 Vite 中得 env 环境变量
+#### 2-9 Vite 中的 env 环境变量
