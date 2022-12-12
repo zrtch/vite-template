@@ -20,7 +20,7 @@ let exampleOnLoadPlugin = {
       }
     })
 
-    // 开始进行构建的时候调用以及结束构建的调用
+    // 开始进行构建的时候调用和结束构建的调用；基本用不到
     // build.onStart()
     // build.onEnd()
 
