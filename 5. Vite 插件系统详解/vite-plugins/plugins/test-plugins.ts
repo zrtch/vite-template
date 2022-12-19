@@ -35,9 +35,9 @@ export default (enforce?: 'pre' | 'post'): Plugin => {
     //   // return html.replace('<div id="app"></div>','<div id="root"></div>')
     //   console.log(html);
     // },
-    // 可以做一些handleHotUpdate的定制化内容 
+    // 可以做一些handleHotUpdate的定制化内容，
     handleHotUpdate(ctx) {
-      // console.log('🤩  handleHotUpdate  ctx', ctx);
+      // 可以通过自定义的事件来告诉客户端应该如何更新这部分的资源
       ctx.server.ws.send({
         type: "custom",
         event: "test",
