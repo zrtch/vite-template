@@ -1,14 +1,14 @@
 原文链接：[https://coding.imooc.com/class/chapter/523.html#Anchor](https://coding.imooc.com/class/chapter/523.html#Anchor)
 
-## Vite 从入门到精通，玩转新时代前端构建法则
+## Vite 从入门到精通，玩转新时代前端构建法则 
 
 ### Vite 的概要介绍
 
-#### 1-1 关于课程你需要了解
+#### 1-1 关于课程你需要了解 
 
 - 开发时效率极高
 - 开箱即用，功能完备
-- 社区丰富，兼容 rollup
+- 社区丰富，兼容rollup
 - 超高速热重载
 - 预设应用和类库打包模式
 - 前端类库无关
