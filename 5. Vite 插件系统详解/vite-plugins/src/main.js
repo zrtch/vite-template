@@ -2,7 +2,7 @@ import { createApp } from "vue"
 import './style.css'
 import App from './App'
 import Worker from "./worker?worker";
-import pkg from '../package.json';
+// import pkg from '../package.json';
 // console.log('🤩  pkg', pkg);
 
 const globModules = import.meta.glob('./glob/*.js ')
