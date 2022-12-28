@@ -1,9 +1,0 @@
-@import url('@styles/other.css');
-
-:root {
-  --main-bg-color: blue
-}
-
-.root {
-  color: var(--main-bg-color);
-}
