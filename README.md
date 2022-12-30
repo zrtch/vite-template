@@ -1,6 +1,6 @@
 原文链接：[https://coding.imooc.com/class/chapter/523.html#Anchor](https://coding.imooc.com/class/chapter/523.html#Anchor)
 
-## Vite 从入门到精通，玩转新时代前端构建法则  
+## Vite 从入门到精通，玩转新时代前端构建法则   
 
 ### Vite 的概要介绍
 
