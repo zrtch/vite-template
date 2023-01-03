@@ -703,10 +703,3 @@ MDXContent.isMDXComponent = true;
 ```
 #### 6-4 MDX 如何配合 React 使用
 [https://github.com/jxnblk/mdx-deck](https://github.com/jxnblk/mdx-deck)
-#### 6-5 插件 Vue 版本基础实现
-#### 6-6 Vue3 的 mdx 函数实现
-#### 6-7 Vite-mdx 插件 vue3 联调
-#### 6-8 Vite-mdx 插件集成 react
-#### 6-9 Vite-mdx 插件进一步完善
-#### 6-10 独立开发 vite-mdx 插件并发布到 npm
-#### 6-11 解决发布 vite-mdx 插件的问题
