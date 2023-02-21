@@ -1,5 +1,5 @@
+## Vite 从入门到精通，玩转新时代前端构建法则
 原文链接：[https://coding.imooc.com/class/chapter/523.html#Anchor](https://coding.imooc.com/class/chapter/523.html#Anchor)
-视频链接：[阿里云盘](https://www.aliyundrive.com/drive/folder/62ac28c5026766b7a9704c65ac73d780b187d180)
 ### Vite 的概要介绍
 #### 1-1 关于课程你需要了解
 
